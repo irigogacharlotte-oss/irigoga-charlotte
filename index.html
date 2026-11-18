@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Irigoga Charlotte | Regional Communications</title>
+<meta name="description" content="Communications professional working on regional cooperation, water, energy and climate resilience across the Nile Basin.">
+<meta property="og:title" content="Irigoga Charlotte | Regional Communications">
+<meta property="og:description" content="Communications professional working on regional cooperation, water, energy and climate resilience across the Nile Basin.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,600;6..72,700&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+/* Layout idea: a newspaper-style profile. Narrow reading column, a river-blue rule running down the experience timeline, work shown as a dateline index. */
+:root{
+  --ink:#14212b;
+  --paper:#f4f6f5;
+  --surface:#ffffff;
+  --muted:#56656f;
+  --river:#1d5d84;
+  --sedge:#3f7d5a;
+  --line:#d7dee2;
+  --display:"Newsreader", Georgia, "Times New Roman", serif;
+  --body:"IBM Plex Sans", "Segoe UI", Helvetica, Arial, sans-serif;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --ink:#e6edf1; --paper:#0f171d; --surface:#16212a; --muted:#9aabb6;
+    --river:#6fb3dc; --sedge:#7fc29b; --line:#263541; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"]{
+  --ink:#e6edf1; --paper:#0f171d; --surface:#16212a; --muted:#9aabb6;
+  --river:#6fb3dc; --sedge:#7fc29b; --line:#263541; color-scheme: dark;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion: reduce){html{scroll-behavior:auto}}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--body);font-size:17px;line-height:1.6}
+a{color:var(--river)}
+a:focus-visible,button:focus-visible{outline:3px solid var(--river);outline-offset:3px;border-radius:2px}
+.wrap{max-width:1080px;margin:0 auto;padding:0 24px}
+h1,h2,h3{font-family:var(--display);text-wrap:balance;margin:0;line-height:1.15}
+h2{font-size:2rem;font-weight:600}
+h3{font-size:1.2rem;font-weight:600}
+p{margin:0}
+
+/* Header */
+header.top{position:sticky;top:0;z-index:5;background:var(--paper);border-bottom:1px solid var(--line)}
+.top .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:60px;flex-wrap:wrap}
+.brand{font-family:var(--display);font-weight:700;font-size:1.3rem;text-decoration:none;color:var(--ink)}
+nav ul{list-style:none;display:flex;flex-wrap:wrap;gap:4px 20px;margin:0;padding:8px 0}
+nav a{text-decoration:none;color:var(--muted);font-size:.92rem;font-weight:500}
+nav a:hover{color:var(--river)}
+
+/* Hero */
+.hero{padding:72px 0 56px;border-bottom:1px solid var(--line)}
+.hero-grid{display:grid;grid-template-columns:1.6fr 1fr;gap:48px;align-items:end}
+.kicker{font-size:.85rem;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--sedge)}
+.hero h1{font-size:clamp(2.6rem,6vw,4.4rem);font-weight:700;margin:14px 0 18px}
+.hero .lede{font-family:var(--display);font-size:1.35rem;color:var(--muted);max-width:34ch}
+.actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px}
+.btn{display:inline-block;padding:11px 20px;border-radius:4px;font-weight:600;font-size:.95rem;text-decoration:none;border:1.5px solid var(--river)}
+.btn.primary{background:var(--river);color:var(--paper)}
+.btn.ghost{color:var(--river)}
+.facts{border-left:3px solid var(--river);padding-left:22px;display:grid;gap:16px}
+.facts dt{font-size:.78rem;text-transform:uppercase;letter-spacing:.07em;color:var(--muted);font-weight:600}
+.facts dd{margin:2px 0 0;font-weight:500}
+
+/* Sections */
+section{padding:64px 0;border-bottom:1px solid var(--line)}
+.sec-head{display:flex;align-items:baseline;justify-content:space-between;gap:16px;flex-wrap:wrap;margin-bottom:32px}
+.sec-head p{color:var(--muted);max-width:52ch}
+.about-grid{display:grid;grid-template-columns:1.4fr 1fr;gap:48px}
+.about-grid .prose{display:grid;gap:16px;max-width:65ch}
+.stats{display:grid;gap:14px;align-content:start}
+.stat{background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:18px 20px}
+.stat b{display:block;font-family:var(--display);font-size:2rem;color:var(--river);font-variant-numeric:tabular-nums;line-height:1.1}
+.stat span{color:var(--muted);font-size:.92rem}
+
+/* Timeline */
+.timeline{list-style:none;margin:0;padding:0;border-left:2px solid var(--river);display:grid;gap:36px}
+.timeline li{position:relative;padding-left:28px}
+.timeline li::before{content:"";position:absolute;left:-8px;top:8px;width:14px;height:14px;border-radius:50%;background:var(--paper);border:3px solid var(--river)}
+.role-meta{color:var(--muted);font-size:.93rem;margin:4px 0 10px}
+.role-text{max-width:70ch}
+
+/* Work index */
+.work{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:18px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:22px;display:flex;flex-direction:column;gap:10px}
+.tag{align-self:flex-start;font-size:.75rem;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--sedge);border:1px solid currentColor;border-radius:999px;padding:2px 10px}
+.card p{color:var(--muted);font-size:.95rem}
+.place{font-size:.85rem;color:var(--muted);margin-top:auto;padding-top:6px;border-top:1px dashed var(--line)}
+
+/* Events */
+.events{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:0;border:1px solid var(--line);border-radius:6px;overflow:hidden;background:var(--surface)}
+.event{padding:24px;border-right:1px solid var(--line)}
+.event:last-child{border-right:none}
+.event .when{font-family:var(--display);font-size:1.5rem;color:var(--river);font-weight:600}
+.event p{color:var(--muted);font-size:.95rem;margin-top:8px}
+
+/* Two-column lists */
+.cols{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:32px}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}
+.chips li{list-style:none;background:var(--surface);border:1px solid var(--line);border-radius:4px;padding:6px 12px;font-size:.92rem}
+.chips{padding:0}
+
+.edu{list-style:none;padding:0;margin:18px 0 0;display:grid;gap:16px}
+.edu span{display:block;color:var(--muted);font-size:.95rem}
+
+/* Contact */
+.contact{background:var(--surface);border:1px solid var(--line);border-left:4px solid var(--river);border-radius:6px;padding:32px;display:grid;grid-template-columns:1.3fr 1fr;gap:32px}
+.contact dl{margin:0;display:grid;gap:14px}
+.contact dt{font-size:.78rem;text-transform:uppercase;letter-spacing:.07em;color:var(--muted);font-weight:600}
+.contact dd{margin:2px 0 0;font-weight:500;word-break:break-word}
+
+footer{padding:32px 0 48px;color:var(--muted);font-size:.9rem}
+footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
+
+@media (max-width:820px){
+  .hero-grid,.about-grid,.contact{grid-template-columns:1fr}
+  .hero{padding:48px 0 40px}
+  .event{border-right:none;border-bottom:1px solid var(--line)}
+  .event:last-child{border-bottom:none}
+  nav ul{gap:4px 14px}
+}
+</style>
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="#top">Irigoga Charlotte</a>
+    <nav aria-label="Sections">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#events">Events</a></li>
+        <li><a href="#writing">Writing</a></li>
+        <li><a href="#education">Education &amp; Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+  <div class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <span class="kicker">Strategic communications · Advocacy · Editorial leadership</span>
+        <h1>Irigoga Charlotte</h1>
+        <p class="lede">Telling the story of regional cooperation on water, energy and climate resilience across the Nile Basin.</p>
+        <div class="actions">
+          <a class="btn primary" href="#contact">Get in touch</a>
+          <a class="btn ghost" href="#work">See my work</a>
+          <a class="btn ghost" href="https://www.linkedin.com/in/irigoga-charlotte/">LinkedIn</a>
+        </div>
+      </div>
+      <dl class="facts">
+        <div><dt>Current role</dt><dd>Regional Communications Specialist, NELSAP-CU, Nile Basin Initiative</dd></div>
+        <div><dt>Based in</dt><dd>Kigali, Rwanda. Working across the region</dd></div>
+        <div><dt>Focus</dt><dd>Regional development, public diplomacy and government communication</dd></div>
+      </dl>
+    </div>
+  </div>
+
+  <section id="about">
+    <div class="wrap about-grid">
+      <div class="prose">
+        <h2>About</h2>
+        <p>I am a communications professional with more than ten years of experience in strategic communications, public affairs, advocacy and editorial production. My career has moved between regional development, government and public diplomacy, and the common thread is the same: taking complex policy and technical subjects and making them clear to the people they affect.</p>
+        <p>Today I am Regional Communications Specialist at the Nile Equatorial Lakes Subsidiary Action Program Coordination Unit (NELSAP-CU), the investment arm of the Nile Basin Initiative. I lead communications for transboundary projects in hydropower, power interconnection, flood early warning, dam safety and water resources, advise senior leadership and coordinate communications across several countries.</p>
+        <p>Before that I spent a decade in public institutions: as Director of Communications at the Rwanda High Commission in Kampala, as Senior Public Relations Officer at the Rwanda Revenue Authority, and earlier as the High Commission's Communication Officer. I hold a Master of Arts in Digital Journalism from Aga Khan University, and I care about communication that is accessible and accountable.</p>
+      </div>
+      <div class="stats" aria-label="Highlights">
+        <div class="stat"><b>10+</b><span>years in communications</span></div>
+        <div class="stat"><b>100+</b><span>reported media placements across the region for NELSAP-CU</span></div>
+        <div class="stat"><b>14+</b><span>stories published from Nile Day 2026 in Juba</span></div>
+        <div class="stat"><b>USD 75,600</b><span>communications plan and budget developed for FY2026/2027</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="experience">
+    <div class="wrap">
+      <div class="sec-head"><h2>Experience</h2></div>
+      <ol class="timeline">
+        <li>
+          <h3>Regional Communications Specialist</h3>
+          <p class="role-meta">Nile Basin Initiative, NELSAP-CU · Kigali, Rwanda · Mar 2025 to present</p>
+          <p class="role-text">I lead strategic communications for an intergovernmental body coordinating water and energy investments in the Nile Equatorial Lakes region. I developed the FY2026/2027 Communications Plan, with its budget, quarterly workplan and monitoring framework, and I coordinate media, visibility and participation for regional events such as Nile Day 2026, ISM 10 and the 10th Nile Basin Journalists Training, which have generated more than 100 reported media placements in the region. I also write speeches, op-eds and executive content for the Regional Coordinator, edit the institutional newsletter, and produce project briefs, technical reports and campaigns, including flood early warning awareness for border communities.</p>
+        </li>
+        <li>
+          <h3>Director, Communications</h3>
+          <p class="role-meta">Rwanda High Commission · Kampala, Uganda · Dec 2019 to Feb 2025</p>
+          <p class="role-text">I led institutional communications and public diplomacy, shaping the mission's engagement with government, diplomatic and public audiences. I prepared speeches, briefings, statements and policy-facing content for senior officials, coordinated media relations and digital communications, and monitored sensitive bilateral and media developments to inform measured responses and official engagements.</p>
+        </li>
+        <li>
+          <h3>Field Researcher and Multimedia Producer</h3>
+          <p class="role-meta">Independent research assignment · Uganda · May to Jul 2024</p>
+          <p class="role-text">I conducted field interviews and multimedia reporting with Batwa communities, centring their context and perspectives.</p>
+        </li>
+        <li>
+          <h3>Senior Public Relations Officer</h3>
+          <p class="role-meta">Rwanda Revenue Authority · Kigali, Rwanda · Mar 2017 to Nov 2019</p>
+          <p class="role-text">I ran public information, taxpayer education and media campaigns, and produced explanatory materials and publications. I coordinated stakeholder outreach, media engagement and digital content, and supervised a five-person customer relations team, setting KPIs against workplan targets and reviewing performance quarterly.</p>
+        </li>
+        <li>
+          <h3>Communication Officer</h3>
+          <p class="role-meta">Rwanda High Commission · Kampala, Uganda · Jan 2015 to Mar 2017</p>
+          <p class="role-text">I prepared media advisories, diplomatic briefs and content supporting public diplomacy and institutional outreach.</p>
+        </li>
+        <li>
+          <h3>Assistant Communications and Advocacy Officer</h3>
+          <p class="role-meta">Association of Microfinance Institutions in Rwanda · Kigali · Mar to Dec 2014</p>
+          <p class="role-text">I supported advocacy and stakeholder communications on financial literacy, financial inclusion and digital payments.</p>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <section id="work">
+    <div class="wrap">
+      <div class="sec-head">
+        <h2>Selected work</h2>
+        <p>Strategies, campaigns and knowledge products for regional projects funded by partners including the World Bank and the African Development Fund.</p>
+      </div>
+      <div class="work">
+        <article class="card">
+          <span class="tag">Campaign</span>
+          <h3>Flash Flood Early Warning awareness</h3>
+          <p>Community campaign and print materials helping border communities understand and respond to flood alerts.</p>
+          <span class="place">Elegu, Uganda and Nimule, South Sudan</span>
+        </article>
+        <article class="card">
+          <span class="tag">Strategy</span>
+          <h3>Rusumo Hydropower handover</h3>
+          <p>Communications strategy for the handover of the Rusumo Regional Hydropower Project to its owners.</p>
+          <span class="place">Burundi, Rwanda, Tanzania</span>
+        </article>
+        <article class="card">
+          <span class="tag">Exhibit</span>
+          <h3>NCCR Project Journey</h3>
+          <p>Completion exhibit with dashboards, infographics and a stakeholder showcase, presented at ISM 10.</p>
+          <span class="place">Nile Basin</span>
+        </article>
+        <article class="card">
+          <span class="tag">Brief</span>
+          <h3>Dam Safety Risk Management Framework</h3>
+          <p>Project brief explaining the Nile Basin framework for managing dam safety risks to non-technical audiences.</p>
+          <span class="place">Nile Basin</span>
+        </article>
+        <article class="card">
+          <span class="tag">Publication</span>
+          <h3>Angololo project brochure</h3>
+          <p>Brochure for the Angololo Water Resources Development Project, a multipurpose investment shared by two countries.</p>
+          <span class="place">Kenya and Uganda</span>
+        </article>
+        <article class="card">
+          <span class="tag">Internal</span>
+          <h3>IGNITE 2026</h3>
+          <p>Internal engagement initiative to strengthen staff connection, culture and shared purpose.</p>
+          <span class="place">NELSAP-CU</span>
+        </article>
+        <article class="card">
+          <span class="tag">Field story</span>
+          <h3>EU and South Sudan joint mission</h3>
+          <p>Mission report, photo stories and social media campaign documenting a high-level field visit.</p>
+          <span class="place">Nimule, South Sudan</span>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="events">
+    <div class="wrap">
+      <div class="sec-head">
+        <h2>Regional events</h2>
+        <p>Media, visibility and logistics for gatherings that bring Nile Basin countries, partners and the public together.</p>
+      </div>
+      <div class="events">
+        <div class="event">
+          <div class="when">Nile Day 2026</div>
+          <h3>Juba, South Sudan</h3>
+          <p>Media breakfast, radio talk show, marathon, exhibition and parade, with more than 14 published stories across regional outlets.</p>
+        </div>
+        <div class="event">
+          <div class="when">ISM 10</div>
+          <h3>Nile Basin Initiative</h3>
+          <p>Communications and the NCCR Project Journey exhibit for the meeting's delegates.</p>
+        </div>
+        <div class="event">
+          <div class="when">10th edition</div>
+          <h3>Nile Basin Journalists Training</h3>
+          <p>Communications and coordination for the tenth regional training of journalists on reporting Nile cooperation, water and climate resilience.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="writing">
+    <div class="wrap">
+      <div class="sec-head"><h2>Writing and research</h2></div>
+      <div class="work">
+        <article class="card">
+          <span class="tag">Feature</span>
+          <h3>Engineering Her Future</h3>
+          <p>A feature on inspiring Rwanda's next generation of women water engineers.</p>
+        </article>
+        <article class="card">
+          <span class="tag">Research</span>
+          <h3>Covering the Rwanda and Uganda border closure</h3>
+          <p>Published Master's dissertation analysing how the media reported the border closure.</p>
+        </article>
+        <article class="card">
+          <span class="tag">Editorial</span>
+          <h3>NELSAP-CU newsletter</h3>
+          <p>Writing and editing institutional newsletter content on regional projects and people.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="education">
+    <div class="wrap cols">
+      <div>
+        <h2>Education</h2>
+        <ul class="edu">
+          <li><strong>Master of Arts, Digital Journalism</strong><span>Graduate School of Media and Communications, Aga Khan University · 2025</span></li>
+          <li><strong>Postgraduate Diploma, Monitoring and Evaluation</strong><span>Uganda Management Institute · 2016</span></li>
+          <li><strong>Bachelor of Arts, Mass Communication</strong><span>Uganda Christian University · 2013</span></li>
+          <li><strong>Additional training</strong><span>Global Diplomacy, University of London · 2023<br>Integrated Marketing Communications, IE Business School · 2020</span></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Skills</h2>
+        <ul class="chips">
+          <li>Communications strategy</li>
+          <li>Editorial direction</li>
+          <li>Advocacy and public engagement</li>
+          <li>Media relations</li>
+          <li>Executive communications</li>
+          <li>Public diplomacy</li>
+          <li>Digital campaigns</li>
+          <li>Stakeholder partnerships</li>
+          <li>Budgets and workplans</li>
+          <li>Monitoring frameworks</li>
+        </ul>
+        <h3 style="margin-top:28px">Tools</h3>
+        <p style="color:var(--muted);margin-top:8px">WordPress, Drupal, SharePoint, Google Analytics, Mailchimp, Hootsuite, Adobe Creative Suite, Microsoft Office, Google Workspace</p>
+        <h3 style="margin-top:24px">Languages</h3>
+        <p style="color:var(--muted);margin-top:8px">English (fluent), Kinyarwanda (fluent), French (basic)</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" style="border-bottom:none">
+    <div class="wrap">
+      <div class="contact">
+        <div>
+          <h2>Let's work together</h2>
+          <p style="margin-top:14px;color:var(--muted);max-width:48ch">Open to speaking, partnership, media and consulting enquiries, and to remote communications roles in development, climate and international affairs.</p>
+        </div>
+        <dl>
+          <div><dt>Email</dt><dd><a href="mailto:irigogacharlotte@gmail.com">irigogacharlotte@gmail.com</a></dd></div>
+          <div><dt>LinkedIn</dt><dd><a href="https://www.linkedin.com/in/irigoga-charlotte/">linkedin.com/in/irigoga-charlotte</a></dd></div>
+          <div><dt>Location</dt><dd>Kigali, Rwanda</dd></div>
+        </dl>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>© 2026 Irigoga Charlotte. All rights reserved.</span>
+    <span>Communicating cooperation across the Nile Basin.</span>
+  </div>
+</footer>
+</body>
+</html>
