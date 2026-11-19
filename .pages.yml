@@ -18,6 +18,7 @@ content:
         type: object
         fields:
           - { name: name, label: Name, type: string, required: true }
+          - { name: short_title, label: Title shown in browser tabs and link previews, type: string }
           - { name: headline, label: Line above your name, type: string }
           - { name: tagline, label: Tagline under your name, type: text }
           - { name: photo, label: Profile photo (portrait works best), type: image }

@@ -1,12 +1,13 @@
 {
   "profile": {
     "name": "Irigoga Charlotte",
-    "headline": "Strategic communications · Advocacy · Editorial leadership",
-    "tagline": "Telling the story of regional cooperation on water, energy and climate resilience across the Nile Basin.",
+    "short_title": "Strategic Communications",
+    "headline": "Strategic communications · Public affairs · Advocacy",
+    "tagline": "I help institutions explain complex policy, development and diplomacy in ways people understand, trust and act on.",
     "photo": "",
     "current_role": "Regional Communications Specialist, NELSAP-CU, Nile Basin Initiative",
-    "based_in": "Kigali, Rwanda. Working across the region",
-    "focus": "Regional development, public diplomacy and government communication"
+    "based_in": "Kigali, Rwanda. Open to remote and international roles",
+    "focus": "Development, climate and environment, government and public diplomacy, international organisations"
   },
   "about": [
     "I am a communications professional with more than ten years of experience in strategic communications, public affairs, advocacy and editorial production. My career has moved between regional development, government and public diplomacy, and the common thread is the same: taking complex policy and technical subjects and making them clear to the people they affect.",
@@ -14,10 +15,22 @@
     "Before that I spent a decade in public institutions: as Director of Communications at the Rwanda High Commission in Kampala, as Senior Public Relations Officer at the Rwanda Revenue Authority, and earlier as the High Commission's Communication Officer. I hold a Master of Arts in Digital Journalism from Aga Khan University, and I care about communication that is accessible and accountable."
   ],
   "highlights": [
-    { "number": "10+", "label": "years in communications" },
-    { "number": "100+", "label": "reported media placements across the region for NELSAP-CU" },
-    { "number": "14+", "label": "stories published from Nile Day 2026 in Juba" },
-    { "number": "USD 75,600", "label": "communications plan and budget developed for FY2026/2027" }
+    {
+      "number": "10+",
+      "label": "years in communications"
+    },
+    {
+      "number": "100+",
+      "label": "reported media placements across the region for NELSAP-CU"
+    },
+    {
+      "number": "14+",
+      "label": "stories published from Nile Day 2026 in Juba"
+    },
+    {
+      "number": "USD 75,600",
+      "label": "communications plan and budget developed for FY2026/2027"
+    }
   ],
   "experience": [
     {
@@ -65,30 +78,118 @@
   ],
   "work_intro": "Strategies, campaigns and knowledge products for regional projects funded by partners including the World Bank and the African Development Fund.",
   "work": [
-    { "tag": "Campaign", "title": "Flash Flood Early Warning awareness", "description": "Community campaign and print materials helping border communities understand and respond to flood alerts.", "place": "Elegu, Uganda and Nimule, South Sudan", "image": "", "link": "" },
-    { "tag": "Strategy", "title": "Rusumo Hydropower handover", "description": "Communications strategy for the handover of the Rusumo Regional Hydropower Project to its owners.", "place": "Burundi, Rwanda, Tanzania", "image": "", "link": "" },
-    { "tag": "Exhibit", "title": "NCCR Project Journey", "description": "Completion exhibit with dashboards, infographics and a stakeholder showcase, presented at ISM 10.", "place": "Nile Basin", "image": "", "link": "" },
-    { "tag": "Brief", "title": "Dam Safety Risk Management Framework", "description": "Project brief explaining the Nile Basin framework for managing dam safety risks to non-technical audiences.", "place": "Nile Basin", "image": "", "link": "" },
-    { "tag": "Publication", "title": "Angololo project brochure", "description": "Brochure for the Angololo Water Resources Development Project, a multipurpose investment shared by two countries.", "place": "Kenya and Uganda", "image": "", "link": "" },
-    { "tag": "Internal", "title": "IGNITE 2026", "description": "Internal engagement initiative to strengthen staff connection, culture and shared purpose.", "place": "NELSAP-CU", "image": "", "link": "" },
-    { "tag": "Field story", "title": "EU and South Sudan joint mission", "description": "Mission report, photo stories and social media campaign documenting a high-level field visit.", "place": "Nimule, South Sudan", "image": "", "link": "" }
+    {
+      "tag": "Campaign",
+      "title": "Flash Flood Early Warning awareness",
+      "description": "Community campaign and print materials helping border communities understand and respond to flood alerts.",
+      "place": "Elegu, Uganda and Nimule, South Sudan",
+      "image": "",
+      "link": ""
+    },
+    {
+      "tag": "Strategy",
+      "title": "Rusumo Hydropower handover",
+      "description": "Communications strategy for the handover of the Rusumo Regional Hydropower Project to its owners.",
+      "place": "Burundi, Rwanda, Tanzania",
+      "image": "",
+      "link": ""
+    },
+    {
+      "tag": "Exhibit",
+      "title": "NCCR Project Journey",
+      "description": "Completion exhibit with dashboards, infographics and a stakeholder showcase, presented at ISM 10.",
+      "place": "Nile Basin",
+      "image": "",
+      "link": ""
+    },
+    {
+      "tag": "Brief",
+      "title": "Dam Safety Risk Management Framework",
+      "description": "Project brief explaining the Nile Basin framework for managing dam safety risks to non-technical audiences.",
+      "place": "Nile Basin",
+      "image": "",
+      "link": ""
+    },
+    {
+      "tag": "Publication",
+      "title": "Angololo project brochure",
+      "description": "Brochure for the Angololo Water Resources Development Project, a multipurpose investment shared by two countries.",
+      "place": "Kenya and Uganda",
+      "image": "",
+      "link": ""
+    },
+    {
+      "tag": "Internal",
+      "title": "IGNITE 2026",
+      "description": "Internal engagement initiative to strengthen staff connection, culture and shared purpose.",
+      "place": "NELSAP-CU",
+      "image": "",
+      "link": ""
+    },
+    {
+      "tag": "Field story",
+      "title": "EU and South Sudan joint mission",
+      "description": "Mission report, photo stories and social media campaign documenting a high-level field visit.",
+      "place": "Nimule, South Sudan",
+      "image": "",
+      "link": ""
+    }
   ],
   "events_intro": "Media, visibility and logistics for gatherings that bring Nile Basin countries, partners and the public together.",
   "events": [
-    { "label": "Nile Day 2026", "title": "Juba, South Sudan", "description": "Media breakfast, radio talk show, marathon, exhibition and parade, with more than 14 published stories across regional outlets." },
-    { "label": "ISM 10", "title": "Nile Basin Initiative", "description": "Communications and the NCCR Project Journey exhibit for the meeting's delegates." },
-    { "label": "10th edition", "title": "Nile Basin Journalists Training", "description": "Communications and coordination for the tenth regional training of journalists on reporting Nile cooperation, water and climate resilience." }
+    {
+      "label": "Nile Day 2026",
+      "title": "Juba, South Sudan",
+      "description": "Media breakfast, radio talk show, marathon, exhibition and parade, with more than 14 published stories across regional outlets."
+    },
+    {
+      "label": "ISM 10",
+      "title": "Nile Basin Initiative",
+      "description": "Communications and the NCCR Project Journey exhibit for the meeting's delegates."
+    },
+    {
+      "label": "10th edition",
+      "title": "Nile Basin Journalists Training",
+      "description": "Communications and coordination for the tenth regional training of journalists on reporting Nile cooperation, water and climate resilience."
+    }
   ],
   "writing": [
-    { "tag": "Feature", "title": "Engineering Her Future", "description": "A feature on inspiring Rwanda's next generation of women water engineers.", "link": "" },
-    { "tag": "Research", "title": "Covering the Rwanda and Uganda border closure", "description": "Published Master's dissertation analysing how the media reported the border closure.", "link": "" },
-    { "tag": "Editorial", "title": "NELSAP-CU newsletter", "description": "Writing and editing institutional newsletter content on regional projects and people.", "link": "" }
+    {
+      "tag": "Feature",
+      "title": "Engineering Her Future",
+      "description": "A feature on inspiring Rwanda's next generation of women water engineers.",
+      "link": ""
+    },
+    {
+      "tag": "Research",
+      "title": "Covering the Rwanda and Uganda border closure",
+      "description": "Published Master's dissertation analysing how the media reported the border closure.",
+      "link": ""
+    },
+    {
+      "tag": "Editorial",
+      "title": "NELSAP-CU newsletter",
+      "description": "Writing and editing institutional newsletter content on regional projects and people.",
+      "link": ""
+    }
   ],
   "education": [
-    { "qualification": "Master of Arts, Digital Journalism", "details": "Graduate School of Media and Communications, Aga Khan University · 2025" },
-    { "qualification": "Postgraduate Diploma, Monitoring and Evaluation", "details": "Uganda Management Institute · 2016" },
-    { "qualification": "Bachelor of Arts, Mass Communication", "details": "Uganda Christian University · 2013" },
-    { "qualification": "Additional training", "details": "Global Diplomacy, University of London · 2023\nIntegrated Marketing Communications, IE Business School · 2020" }
+    {
+      "qualification": "Master of Arts, Digital Journalism",
+      "details": "Graduate School of Media and Communications, Aga Khan University · 2025"
+    },
+    {
+      "qualification": "Postgraduate Diploma, Monitoring and Evaluation",
+      "details": "Uganda Management Institute · 2016"
+    },
+    {
+      "qualification": "Bachelor of Arts, Mass Communication",
+      "details": "Uganda Christian University · 2013"
+    },
+    {
+      "qualification": "Additional training",
+      "details": "Global Diplomacy, University of London · 2023\nIntegrated Marketing Communications, IE Business School · 2020"
+    }
   ],
   "skills": [
     "Communications strategy",
@@ -113,5 +214,5 @@
     "phone": "",
     "location": "Kigali, Rwanda"
   },
-  "footer_tagline": "Communicating cooperation across the Nile Basin."
+  "footer_tagline": "Clear, accountable communication for institutions that serve the public."
 }
