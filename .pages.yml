@@ -1,0 +1,147 @@
+# Pages CMS editor for irigoga-charlotte
+# Sign in at https://app.pagescms.org with GitHub, open this repository,
+# edit "My website", click Save. Vercel updates the live site in about a minute.
+
+media:
+  input: media
+  output: /media
+
+content:
+  - name: site
+    label: My website
+    type: file
+    path: content/site.json
+    format: json
+    fields:
+      - name: profile
+        label: Top of page
+        type: object
+        fields:
+          - { name: name, label: Name, type: string, required: true }
+          - { name: headline, label: Line above your name, type: string }
+          - { name: tagline, label: Tagline under your name, type: text }
+          - { name: photo, label: Profile photo (portrait works best), type: image }
+          - { name: current_role, label: Current role, type: string }
+          - { name: based_in, label: Based in, type: string }
+          - { name: focus, label: Focus, type: string }
+
+      - name: about
+        label: About (one box per paragraph)
+        type: text
+        list: true
+
+      - name: highlights
+        label: Highlight numbers
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{number} {label}"
+        fields:
+          - { name: number, label: Number, type: string }
+          - { name: label, label: What it means, type: string }
+
+      - name: experience
+        label: Experience (newest first)
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{title}, {organisation}"
+        fields:
+          - { name: title, label: Job title, type: string, required: true }
+          - { name: organisation, label: Organisation, type: string }
+          - { name: location, label: Location, type: string }
+          - { name: dates, label: Dates (e.g. Mar 2025 to present), type: string }
+          - { name: description, label: What you did, type: text }
+
+      - name: work_intro
+        label: Selected work, intro sentence
+        type: text
+
+      - name: work
+        label: Selected work
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{title}"
+        fields:
+          - { name: tag, label: Type (e.g. Campaign, Report), type: string }
+          - { name: title, label: Title, type: string, required: true }
+          - { name: description, label: Short description, type: text }
+          - { name: place, label: Place, type: string }
+          - { name: image, label: Image (optional), type: image }
+          - { name: link, label: Link (optional), type: string }
+
+      - name: events_intro
+        label: Regional events, intro sentence
+        type: text
+
+      - name: events
+        label: Regional events
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{label} {title}"
+        fields:
+          - { name: label, label: Big label (event name or date), type: string }
+          - { name: title, label: Title or place, type: string }
+          - { name: description, label: Short description, type: text }
+
+      - name: writing
+        label: Writing and research
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{title}"
+        fields:
+          - { name: tag, label: Type (e.g. Feature, Research), type: string }
+          - { name: title, label: Title, type: string, required: true }
+          - { name: description, label: Short description, type: text }
+          - { name: link, label: Link to read it (optional), type: string }
+
+      - name: gallery
+        label: Photo gallery (section appears once you add a photo)
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{caption}"
+        fields:
+          - { name: image, label: Photo, type: image }
+          - { name: caption, label: Caption, type: string }
+
+      - name: education
+        label: Education
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{qualification}"
+        fields:
+          - { name: qualification, label: Qualification, type: string }
+          - { name: details, label: School and year, type: text }
+
+      - name: skills
+        label: Skills
+        type: string
+        list: true
+
+      - { name: tools, label: Tools, type: text }
+      - { name: languages, label: Languages, type: string }
+
+      - name: contact
+        label: Contact
+        type: object
+        fields:
+          - { name: heading, label: Heading, type: string }
+          - { name: intro, label: Intro text, type: text }
+          - { name: email, label: Email, type: string }
+          - { name: phone, label: Phone (leave empty to hide), type: string }
+          - { name: linkedin, label: LinkedIn link, type: string }
+          - { name: location, label: Location, type: string }
+
+      - { name: footer_tagline, label: Footer line, type: string }
