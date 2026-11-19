@@ -1,10 +1,9 @@
 {
   "profile": {
     "name": "Irigoga Charlotte",
-    "short_title": "Strategic Communications",
     "headline": "Strategic communications · Public affairs · Advocacy",
     "tagline": "I help institutions explain complex policy, development and diplomacy in ways people understand, trust and act on.",
-    "photo": "",
+    "photo": "/media/_GNZ8337 (1).jpg",
     "current_role": "Regional Communications Specialist, NELSAP-CU, Nile Basin Initiative",
     "based_in": "Kigali, Rwanda. Open to remote and international roles",
     "focus": "Development, climate and environment, government and public diplomacy, international organisations"
@@ -82,57 +81,43 @@
       "tag": "Campaign",
       "title": "Flash Flood Early Warning awareness",
       "description": "Community campaign and print materials helping border communities understand and respond to flood alerts.",
-      "place": "Elegu, Uganda and Nimule, South Sudan",
-      "image": "",
-      "link": ""
+      "place": "Elegu, Uganda and Nimule, South Sudan"
     },
     {
       "tag": "Strategy",
       "title": "Rusumo Hydropower handover",
       "description": "Communications strategy for the handover of the Rusumo Regional Hydropower Project to its owners.",
-      "place": "Burundi, Rwanda, Tanzania",
-      "image": "",
-      "link": ""
+      "place": "Burundi, Rwanda, Tanzania"
     },
     {
       "tag": "Exhibit",
       "title": "NCCR Project Journey",
       "description": "Completion exhibit with dashboards, infographics and a stakeholder showcase, presented at ISM 10.",
-      "place": "Nile Basin",
-      "image": "",
-      "link": ""
+      "place": "Nile Basin"
     },
     {
       "tag": "Brief",
       "title": "Dam Safety Risk Management Framework",
       "description": "Project brief explaining the Nile Basin framework for managing dam safety risks to non-technical audiences.",
-      "place": "Nile Basin",
-      "image": "",
-      "link": ""
+      "place": "Nile Basin"
     },
     {
       "tag": "Publication",
       "title": "Angololo project brochure",
       "description": "Brochure for the Angololo Water Resources Development Project, a multipurpose investment shared by two countries.",
-      "place": "Kenya and Uganda",
-      "image": "",
-      "link": ""
+      "place": "Kenya and Uganda"
     },
     {
       "tag": "Internal",
       "title": "IGNITE 2026",
       "description": "Internal engagement initiative to strengthen staff connection, culture and shared purpose.",
-      "place": "NELSAP-CU",
-      "image": "",
-      "link": ""
+      "place": "NELSAP-CU"
     },
     {
       "tag": "Field story",
       "title": "EU and South Sudan joint mission",
       "description": "Mission report, photo stories and social media campaign documenting a high-level field visit.",
-      "place": "Nimule, South Sudan",
-      "image": "",
-      "link": ""
+      "place": "Nimule, South Sudan"
     }
   ],
   "events_intro": "Media, visibility and logistics for gatherings that bring Nile Basin countries, partners and the public together.",
@@ -157,20 +142,17 @@
     {
       "tag": "Feature",
       "title": "Engineering Her Future",
-      "description": "A feature on inspiring Rwanda's next generation of women water engineers.",
-      "link": ""
+      "description": "A feature on inspiring Rwanda's next generation of women water engineers."
     },
     {
       "tag": "Research",
       "title": "Covering the Rwanda and Uganda border closure",
-      "description": "Published Master's dissertation analysing how the media reported the border closure.",
-      "link": ""
+      "description": "Published Master's dissertation analysing how the media reported the border closure."
     },
     {
       "tag": "Editorial",
       "title": "NELSAP-CU newsletter",
-      "description": "Writing and editing institutional newsletter content on regional projects and people.",
-      "link": ""
+      "description": "Writing and editing institutional newsletter content on regional projects and people."
     }
   ],
   "education": [
@@ -205,13 +187,11 @@
   ],
   "tools": "WordPress, Drupal, SharePoint, Google Analytics, Mailchimp, Hootsuite, Adobe Creative Suite, Microsoft Office, Google Workspace",
   "languages": "English (fluent), Kinyarwanda (fluent), French (basic)",
-  "gallery": [],
   "contact": {
     "heading": "Let's work together",
-    "intro": "Open to speaking, partnership, media and consulting enquiries, and to remote communications roles in development, climate and international affairs.",
+    "intro": "Open to partnership, media and consulting enquiries, and to remote communications roles in development, climate and international affairs.",
     "email": "irigogacharlotte@gmail.com",
     "linkedin": "https://www.linkedin.com/in/irigoga-charlotte/",
-    "phone": "",
     "location": "Kigali, Rwanda"
   },
   "footer_tagline": "Clear, accountable communication for institutions that serve the public."
